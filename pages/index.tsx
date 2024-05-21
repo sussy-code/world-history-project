@@ -6,7 +6,7 @@ import {
   Hero,
   Frame,
 } from '@neato/guider/client';
-import logoUrl from '../public/logo-img.png';
+import logoUrl from '../public/logo.png';
 
 export default function LandingPage() {
   return (
@@ -14,15 +14,17 @@ export default function LandingPage() {
       <Hero>
         <div style={{ paddingBottom: '0.7em' }}>
           <Frame>
-            <img src={logoUrl.src} alt="Logo of sudo-flix" />
+            <div style={{ margin: '0.4em' }}>
+              <img src={logoUrl.src} alt="Logo of netherlands" />
+            </div>
           </Frame>
         </div>
-        <Hero.Title>Chill Pill</Hero.Title>
+        <Hero.Title>Netherlands</Hero.Title>
         <Hero.Subtitle>
-          An all nature solution to overactive dogs. Makes them and you chill.
+          Je Maintiendrai, (I will maintain)
         </Hero.Subtitle>
         <Hero.Actions>
-          <Button to="/intro">Learn more</Button>
+          <Button to="/project">Learn more</Button>
           <Button
             to="https://github.com/sussy-code/skool-project"
             type="secondary"
@@ -31,19 +33,21 @@ export default function LandingPage() {
           </Button>
         </Hero.Actions>
       </Hero>
-      <Frame plain={true}>
+      <Frame>
         <CardGrid>
-          <Card icon="mdi:sprout" title="All Natural">
-            Chill Pill exclusively uses exclusively natural and ethically
-            obtained ingredients.
+          <Card icon="mdi:chess-king" title="The King">
+            The Netherlands is a constitutional monarchy meaning 
+            the head of state is a King or Queen whose powers 
+            are detailed in the Constitution.
           </Card>
-          <Card icon="mdi:shield-home" title="USA Based">
-            We brainstorm, produce and live in the United States fostering
-            homegrown quality and supporting our nation.
+          <Card icon="mdi:cannabis" title="Legalized">
+            The Netherlands permits "soft drugs" such as marijuana,
+            coffee shops sell small amounts as well as seeds.
           </Card>
-          <Card icon="mdi:checkbox-marked" title="FDA Approved">
-            Our dog chews are FDA approved ensuring guaranteed trust and
-            quality.
+          <Card icon="mdi:server" title="Tech Boom">
+            In the Netherlands, almost half of the investments in the 
+            past year went to the deep tech sector. The sector raised
+            15% more than in 2022.
           </Card>
         </CardGrid>
       </Frame>

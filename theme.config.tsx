@@ -1,27 +1,20 @@
 import { defineTheme, directory, group, link, social } from '@neato/guider/theme';
 import { Logo } from './components/Logo';
 import { NextSeo } from 'next-seo';
-import faviconUrl from './public/logo-img.png';
+import faviconUrl from './public/logo.png';
 
 export default defineTheme({
-  github: 'sussy-code/skool-project',
+  github: 'sussy-code/world-history-project',
   navigation: [
     link('My other project', 'https://sudo-flix.lol', {
       style: 'star',
       newTab: true,
     }),
   ],
-  contentFooter: {
-    text: 'Made with :3 (sillyness)',
-    editRepositoryBase: 'https://github.com/sussy-code/docs/blob/master',
-    socials: [
-      social.github('https://github.com/sussy-code'),
-    ]
-  },
   meta: (pageMeta) => (
     <NextSeo {...{
-      title: `${pageMeta.title ?? 'Chill Pill'}`,
-      description: pageMeta.description ?? 'Chill Pill is a dog sedative to calm your best friend',
+      title: `${pageMeta.title ?? 'Netherlands'}`,
+      description: pageMeta.description ?? 'Netherlands, I will maintain',
       additionalLinkTags: [
         {
           href: faviconUrl.src,
@@ -35,6 +28,7 @@ export default defineTheme({
     logo: () => <Logo />,
     backgroundPattern: 'flare',
     toc: false,
+    sidebar: false,
     contentFooter: false,
     colors: {
       'primary': '#A476D9',
@@ -53,11 +47,7 @@ export default defineTheme({
   directories: [
     directory('main', {
       sidebar: [
-        link('Introduction', '/intro', { icon: 'mdi:handshake' }),
-        link('Ingredients', '/ingredients', { icon: 'mdi:chef-hat' }),
-        link('Pricing', '/pricing', { icon: 'mdi:cash-multiple' }),
-        link('Contact us', '/contact', { icon: 'mdi:contact'}),
-        link('About us', '/about', { icon: 'mdi:about' }),
+        link('project', '/project', { icon: 'mdi:handshake' }),
       ]
     })
   ],

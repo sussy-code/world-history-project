@@ -1,12 +1,12 @@
 .logo {
-  border-radius: 0.6rem;
+  border-radius: 5px;
   margin-left: -0.5rem;
-  padding: 0.65rem;
+  padding: 0.5rem;
   transition: transform 100ms ease-in-out, background-color 100ms ease-in-out;
 }
 
 .logo > img {
-  height: 2.8rem;
+  height: 2rem;
 }
 
 .logo:hover {
