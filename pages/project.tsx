@@ -18,6 +18,7 @@ export default function ProjectPage() {
   return (
     <GuiderLayout meta={{ layout: 'article' }}>
       <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+        {/* Need 3 more events here (Each event should have a small image/symbol) */}
         <Timeline events={[
           { section: 'The Dutch Golden Age', title: 'Dutch East Indies', description: text1 },
           { section: 'A Small Nation', title: 'Puppet Nation', description: text2 },
