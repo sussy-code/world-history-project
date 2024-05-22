@@ -8,7 +8,16 @@ export function Timeline({ events }) {
         <div key={index} className={classes.event}>
           <h1 className={classes.header1}>{event.section}</h1>
           <div className={classes.content}>
-            <h2 className={classes.header2}>{event.title}</h2>
+            <div
+              style={{ display: 'flex', alignItems: 'center', gap: '0.6em' }}
+            >
+              <h2 className={classes.header2}>{event.title}</h2>
+              <img
+                src={event.img}
+                alt={event.title}
+                className={classes.image}
+              />
+            </div>
             <p>{event.description}</p>
           </div>
         </div>

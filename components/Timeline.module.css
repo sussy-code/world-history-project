@@ -1,3 +1,9 @@
+.image {
+  margin-block: 0.4em;
+  width: 20%;
+  height: auto;
+}
+
 .timeline {
   display: flex;
   flex-direction: column;
