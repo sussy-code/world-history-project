@@ -13,19 +13,19 @@ export default function LandingPage() {
     <GuiderLayout meta={{ layout: 'page' }}>
       <Hero>
         <div style={{ paddingBottom: '0.7em' }}>
-          <Frame>
+          <Frame plain={true}>
             <div style={{ margin: '0.4em' }}>
-              <img src={logoUrl.src} alt="Logo of netherlands" />
+              <img src={logoUrl.src} alt='Logo of netherlands' />
             </div>
           </Frame>
         </div>
         <Hero.Title>Netherlands</Hero.Title>
         <Hero.Subtitle>Je Maintiendrai, (I will maintain)</Hero.Subtitle>
         <Hero.Actions>
-          <Button to="/project">Learn more</Button>
+          <Button to='/project'>Learn more</Button>
           <Button
-            to="https://github.com/sussy-code/skool-project"
-            type="secondary"
+            to='https://github.com/sussy-code/skool-project'
+            type='secondary'
           >
             See source code
           </Button>
@@ -33,16 +33,16 @@ export default function LandingPage() {
       </Hero>
       <Frame>
         <CardGrid>
-          <Card icon="mdi:chess-king" title="The King">
+          <Card icon='mdi:chess-king' title='The King'>
             The Netherlands is a constitutional monarchy meaning the head of
             state is a King or Queen whose powers are detailed in the
             Constitution.
           </Card>
-          <Card icon="mdi:cannabis" title="Legalized">
+          <Card icon='mdi:cannabis' title='Legalized'>
             The Netherlands permits &quot;soft drugs&quot; such as marijuana,
             coffee shops sell small amounts as well as seeds.
           </Card>
-          <Card icon="mdi:server" title="Tech Boom">
+          <Card icon='mdi:server' title='Tech Boom'>
             In the Netherlands, almost half of the investments in the past year
             went to the deep tech sector. The sector raised 15% more than in
             2022.

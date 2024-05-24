@@ -26,8 +26,7 @@ export default function ProjectPage() {
     'With the retreat of the Roman empire, the Franks were now able to form an empire along important routes for trade. This allowed them to gain influence and power against the Romans and to eventually take the Netherlands in 768 BC under the rule of Charlemagne which was nearing the end of the Frankish empire.';
   return (
     <GuiderLayout meta={{ layout: 'article' }}>
-      <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-        {/* Need 3 more events here (Each event should have a small image/symbol) */}
+      <div style={{ display: 'flex', justifyContent: 'flex-start', gap: '1em' }}>
         <Timeline
           events={[
             {
@@ -74,6 +73,26 @@ export default function ProjectPage() {
             },
           ]}
         />
+        <div style={{ paddingInline: '1em' }}>
+          <h1>Government</h1>
+          <Frame plain={true}>
+            <div style={{ display: 'flex', flexDirection: 'row', gap: '2em' }}>
+              <img src='gov-structure.png' width='425' height='425' />
+              <img src='law-making-structure.png' width='425' height='425' />
+            </div>
+          </Frame>
+          <p>
+            The Netherlands is a constitutional monarchy with a parliamentary system. The King of
+            the Netherlands is the head of state, but his role is mostly ceremonial. The Prime
+            Minister is the head of government and is responsible for running the country. The
+            Netherlands has a bicameral parliament, which consists of the House of Representatives and
+            the Senate. The House of Representatives is the lower house and is elected by the people.
+            The Senate is the upper house and is elected by the members of the provincial
+            legislatures.
+          </p>
+          <hr></hr>
+          <h1>Economy</h1>
+        </div>
       </div>
     </GuiderLayout>
   );
