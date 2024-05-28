@@ -24,7 +24,7 @@ export default function ProjectPage() {
     'After the fall of the Charlemagne Empire in 814, the Low Countries region has been distributed into further smaller states that were controlled by dukes and tallies. Simultaneously, in the Middle Ages, a solid economic development made the Netherlands perhaps the most extravagant region in Europe.';
   const text7 =
     'With the retreat of the Roman empire, the Franks were now able to form an empire along important routes for trade. This allowed them to gain influence and power against the Romans and to eventually take the Netherlands in 768 BC under the rule of Charlemagne which was nearing the end of the Frankish empire.';
-  return (
+    return (
     <GuiderLayout meta={{ layout: 'article' }}>
       <div
         style={{ display: 'flex', justifyContent: 'flex-start', gap: '1em' }}

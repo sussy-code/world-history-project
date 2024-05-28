@@ -26,7 +26,7 @@ export default defineTheme({
   ),
   settings: {
     logo: () => <Logo />,
-    backgroundPattern: 'flare',
+    //backgroundPattern: 'flare',
     toc: false,
     sidebar: false,
     contentFooter: false,
@@ -48,6 +48,7 @@ export default defineTheme({
     directory('main', {
       sidebar: [
         link('project', '/project', { icon: 'mdi:handshake' }),
+        link('project', '/graph', { icon: 'mdi:handshake' }),
       ]
     })
   ],
