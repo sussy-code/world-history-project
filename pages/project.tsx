@@ -8,6 +8,7 @@ import {
 } from '@neato/guider/client';
 import { Timeline } from '../components/Timeline';
 import logoUrl from '../public/logo.png';
+import Link from 'next/link';
 
 export default function ProjectPage() {
   const text1 =
@@ -80,16 +81,16 @@ export default function ProjectPage() {
           <Frame plain={true}>
             <div style={{ display: 'flex', flexDirection: 'row', gap: '2em' }}>
               <img
-                src="gov-structure.png"
-                width="425"
-                height="425"
-                alt="government structure diagram"
+                src='gov-structure.png'
+                width='425'
+                height='425'
+                alt='government structure diagram'
               />
               <img
-                src="law-making-structure.png"
-                width="425"
-                height="425"
-                alt="law making diagram"
+                src='law-making-structure.png'
+                width='425'
+                height='425'
+                alt='law making diagram'
               />
             </div>
           </Frame>
@@ -106,6 +107,9 @@ export default function ProjectPage() {
           </p>
           <hr></hr>
           <h1>Economy</h1>
+          <a href='/graph' title="Click to enlarge">
+            <img src='economy-table.png' alt='netherlands economy graph' title='netherlands economy graph' />
+          </a>
         </div>
       </div>
     </GuiderLayout>

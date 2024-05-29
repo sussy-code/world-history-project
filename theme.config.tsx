@@ -26,7 +26,7 @@ export default defineTheme({
   ),
   settings: {
     logo: () => <Logo />,
-    //backgroundPattern: 'flare',
+    backgroundPattern: 'flare',
     toc: false,
     sidebar: false,
     contentFooter: false,
