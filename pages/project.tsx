@@ -25,7 +25,7 @@ export default function ProjectPage() {
     'After the fall of the Charlemagne Empire in 814, the Low Countries region has been distributed into further smaller states that were controlled by dukes and tallies. Simultaneously, in the Middle Ages, a solid economic development made the Netherlands perhaps the most extravagant region in Europe.';
   const text7 =
     'With the retreat of the Roman empire, the Franks were now able to form an empire along important routes for trade. This allowed them to gain influence and power against the Romans and to eventually take the Netherlands in 768 BC under the rule of Charlemagne which was nearing the end of the Frankish empire.';
-    return (
+  return (
     <GuiderLayout meta={{ layout: 'article' }}>
       <div
         style={{ display: 'flex', justifyContent: 'flex-start', gap: '1em' }}
@@ -81,16 +81,16 @@ export default function ProjectPage() {
           <Frame plain={true}>
             <div style={{ display: 'flex', flexDirection: 'row', gap: '2em' }}>
               <img
-                src='gov-structure.png'
-                width='425'
-                height='425'
-                alt='government structure diagram'
+                src="gov-structure.png"
+                width="425"
+                height="425"
+                alt="government structure diagram"
               />
               <img
-                src='law-making-structure.png'
-                width='425'
-                height='425'
-                alt='law making diagram'
+                src="law-making-structure.png"
+                width="425"
+                height="425"
+                alt="law making diagram"
               />
             </div>
           </Frame>
@@ -107,9 +107,65 @@ export default function ProjectPage() {
           </p>
           <hr></hr>
           <h1>Economy</h1>
-          <a href='/graph' title="Click to enlarge">
-            <img src='economy-table.png' alt='netherlands economy graph' title='netherlands economy graph' />
+          <a href="/graph" title="Click to enlarge">
+            <div style={{ marginBottom: '0.8em' }}>
+              <img
+                src="economy-table.png"
+                alt="netherlands economy graph"
+                title="netherlands economy graph"
+              />
+            </div>
           </a>
+          <p>
+            The modern Netherlands economy is characterized by a strong emphasis
+            on trade and logistics, manufacturing, services, innovation and
+            technology, and sustainable energy. It ranks as the 18th largest
+            economy globally in terms of nominal GDP and the 28th largest by
+            purchasing power parity.
+          </p>
+          <hr></hr>
+          <h1>Modern Issues</h1>
+          <p>
+            The Netherlands is a country that is known for its progressive
+            policies and high quality of life. However, like all countries, it
+            faces a number of challenges. Some of the key issues facing the
+            Netherlands today include: high obesity rates among adults at 20.4%,
+            and a relatively high level of alcohol consumption at 8.23 liters of 
+            pure alcohol per capita. Environmental issues are significant, 
+            with water and air pollution from industrial and agricultural 
+            activities, including emissions of particulate matter, carbon dioxide, 
+            and methane.
+          </p>
+          <h2>Environment issues</h2>
+          <p>
+            The Netherlands is a densely populated country with a high level of
+            industrial activity. As a result, it faces a number of environmental
+            challenges. Some of the key environmental issues facing the
+            Netherlands today include: air pollution, water pollution, and soil
+            contamination. The Netherlands is also vulnerable to the impacts of
+            climate change, including rising sea levels and more frequent
+            extreme weather events.
+          </p>
+          <h2>Alcohol consumption</h2>
+          <p>
+            Alcohol consumption in the Netherlands is relatively high compared
+            to other countries. The average Dutch person consumes 8.23 liters of
+            pure alcohol per capita per year, which is above the global average.
+            Alcohol consumption is associated with a number of health risks,
+            including liver disease, heart disease, and certain types of cancer.
+            The Dutch government has taken steps to reduce alcohol consumption,
+            including raising the legal drinking age and increasing taxes on
+            alcohol.
+          </p>
+          <h2>Obesity Among Adults</h2>
+          <p>
+            Obesity rates among adults in the Netherlands are relatively high,
+            with 20.4% of the population classified as obese. Obesity is
+            associated with a number of health risks, including heart disease,
+            diabetes, and certain types of cancer. The Dutch government has
+            taken steps to address the issue of obesity, including promoting
+            healthy eating and physical activity.
+          </p>
         </div>
       </div>
     </GuiderLayout>
