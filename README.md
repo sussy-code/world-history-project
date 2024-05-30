@@ -1,3 +1,3 @@
 # Skool project
-[URL](https://ruby-ridge.wyzie.ru)  
+[URL](https://skool.ilysm.nl)  
 Framework by my man JVS.

@@ -48,7 +48,7 @@ export default defineTheme({
     directory('main', {
       sidebar: [
         link('project', '/project', { icon: 'mdi:handshake' }),
-        link('project', '/graph', { icon: 'mdi:handshake' }),
+        link('graph', '/graph', { icon: 'mdi:handshake' }),
       ]
     })
   ],

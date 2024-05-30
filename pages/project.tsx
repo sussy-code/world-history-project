@@ -166,8 +166,24 @@ export default function ProjectPage() {
             taken steps to address the issue of obesity, including promoting
             healthy eating and physical activity.
           </p>
+          <hr></hr>
+          <h1>Connection</h1>
+          <p>
+            The Netherlands and Germany have a long history of trade relations.
+            The proximity of the two countries, as well as their shared borders, have
+            ensured economic ties between them. Both nations are major trading partners,
+            with Germany being one of the Netherlands’ most important trading partners.
+          </p>
+          <img
+            style={{ marginTop: '0.8em' }}
+            src="flow-chart.png"
+            width="650"
+            height="auto"
+            alt="flow chart diagram"
+          />
         </div>
       </div>
+      <hr></hr>
     </GuiderLayout>
   );
 }
