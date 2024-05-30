@@ -130,11 +130,11 @@ export default function ProjectPage() {
             policies and high quality of life. However, like all countries, it
             faces a number of challenges. Some of the key issues facing the
             Netherlands today include: high obesity rates among adults at 20.4%,
-            and a relatively high level of alcohol consumption at 8.23 liters of 
-            pure alcohol per capita. Environmental issues are significant, 
-            with water and air pollution from industrial and agricultural 
-            activities, including emissions of particulate matter, carbon dioxide, 
-            and methane.
+            and a relatively high level of alcohol consumption at 8.23 liters of
+            pure alcohol per capita. Environmental issues are significant, with
+            water and air pollution from industrial and agricultural activities,
+            including emissions of particulate matter, carbon dioxide, and
+            methane.
           </p>
           <h2>Environment issues</h2>
           <p>
