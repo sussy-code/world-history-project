@@ -170,9 +170,10 @@ export default function ProjectPage() {
           <h1>Connection</h1>
           <p>
             The Netherlands and Germany have a long history of trade relations.
-            The proximity of the two countries, as well as their shared borders, have
-            ensured economic ties between them. Both nations are major trading partners,
-            with Germany being one of the Netherlands’ most important trading partners.
+            The proximity of the two countries, as well as their shared borders,
+            have ensured economic ties between them. Both nations are major
+            trading partners, with Germany being one of the Netherlands’ most
+            important trading partners.
           </p>
           <img
             style={{ marginTop: '0.8em' }}
